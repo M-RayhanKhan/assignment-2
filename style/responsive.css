@@ -18,7 +18,9 @@
         width: auto;
         padding: 0 15px;
     }
-
+    nav{
+        padding-top: 40px;
+    }
     .nav-content {
         display: none;
     }
@@ -97,16 +99,12 @@
         left: -5%;
     }
 
-    main {
-        width: auto;
-        margin: 0 10px;
-    }
-
-    main section {
-        margin: 0;
-
-    }
-
+   .main{
+    width: auto;
+   }
+   .padding{
+    padding: 0px 5px;
+   }
 
     /* change habit style here */
     .section-title {
@@ -175,10 +173,10 @@
 
     /* run an extra mile */
     .run-extra-container {
-        /* background-color: rgba(70, 66, 66, 0.774); */
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        margin: 0 10px;
+        padding: 30px 20px;
         border-radius: 15px;
         margin-top: 60px;
     }
@@ -195,6 +193,7 @@
 
     .run-image {
         width: 100%;
+        
     }
 
     /* Meet Our Team style responsive here */
@@ -273,11 +272,53 @@
         width: 100%;
         padding: 0px 20px 0px 10px;
     }
-    .content {
+
+    /* bmi calculator responsive start*/
+    .content, .bmi-calculator-container {
         flex-direction: column;
+        align-items: start;
+    }
+    .bmi-calculator-container{
+        padding: 25px 15px;
+    }
+    .bmi-title {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 10px;
+        margin-top: 30px;
     }
     .start{
         margin-top: 20px;
+    }
+    .input-field {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    .input-field input {
+        width: 100%;
+        /* height: 48px; */
+        border: none;
+        padding-left: 20px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .change-habit
+    ,.training-and-exercises-container
+    ,.meet-our-team-container
+    ,.bmt-calculator{
+        padding: 0px 15px
+    }
+
+    .bmt-calculator {
+        width: 100%;
+        margin: 0 auto;
+        padding-right: 80px;
+        margin: 20px 0;
     }
 }
 
