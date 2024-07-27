@@ -410,12 +410,8 @@ th {
 .mb{
  margin-bottom: 29px;
 }
+/* input form */
 
-.input-field {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-}
 .input-field input:focus{
     outline: 0;
 }
@@ -429,7 +425,29 @@ th {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     font-weight: 400;
+    margin-top: 7px;
 }
+.select, .select-full {
+    width: 282.5px;
+    height: 48px;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+.select-full {
+    width: 100%;
+    margin-top: 7px;
+}
+
+option{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 
 .input-full {
     width: 100%;
@@ -438,7 +456,7 @@ th {
     padding-left: 20px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    margin-top: 8px;
+    /* margin-top: 8px; */
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 400;

@@ -61,7 +61,7 @@
     }
 
     .fitnes-title {
-        max-width: 200px;
+        max-width: 280px;
         margin-top: 32px;
     }
 
@@ -291,22 +291,18 @@
     .start{
         margin-top: 20px;
     }
-    .input-field {
+    .field {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
+        align-items: center;
+        gap: 7px;
     }
-    .input-field input {
-        width: 100%;
-        /* height: 48px; */
-        border: none;
-        padding-left: 20px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        color: rgba(255, 255, 255, 0.6);
-        font-size: 14px;
-        font-weight: 400;
-    }
+  .select, .select-full , .input-field input{
+    width: 100%;
+  }
+  .select{
+    margin-top: 7px;
+  }
     .change-habit
     ,.training-and-exercises-container
     ,.meet-our-team-container
