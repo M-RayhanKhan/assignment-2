@@ -115,7 +115,7 @@ main>section {
 }
 
 .btn-secondary {
-    padding: 16px 40px;
+    padding: 16px 28px;
     border-radius: 42px;
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
@@ -126,7 +126,7 @@ main>section {
 }
 
 .btn-default {
-    padding: 16px 40px;
+    padding: 16px 28px;
     border-radius: 42px;
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -135,7 +135,7 @@ main>section {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
     background-color: black;
-    margin-left: 14px;
+    margin-left: 10px;
 }
 
 /* shared style ends here */
@@ -276,6 +276,7 @@ main>section {
     background: rgb(34, 34, 34);
     align-items: center;
     padding: 20px;
+    padding-left: 30px;
     margin-top: 60px;
 }
 
